@@ -1,7 +1,7 @@
 FROM nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
 MAINTAINER Daniil Naumetc <daniil.naumetc@gmail.com>
 
-# nvidia-docker run -it --rm -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888
+# nvidia-docker run -it --rm --name docker-ml -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888
 
 EXPOSE 8888
 
