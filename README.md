@@ -18,7 +18,7 @@ Open http://localhost:8888 in your browser
 
 
 ## Installations
-The image contents only a set of necessary installations for Tensorflow with Keras (**GPU**) and Jupyter Notebook
+The image contents a set of necessary installations for Tensorflow with Keras (**GPU**) and Jupyter Notebook. Additionally helpfull libraries for working with data.
 
 ### APT
 - git
@@ -49,4 +49,3 @@ The image contents only a set of necessary installations for Tensorflow with Ker
 - scikit-image
 - opencv-python
 - sklearn
-
