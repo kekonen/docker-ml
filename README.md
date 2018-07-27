@@ -1,5 +1,5 @@
 # Docker machine-learning image with Keras and Tensorflow
-A minimal image with GPU version of Tensorflow, Keras and Jupyter on top of **Python 3**. Built with **nvidia-docker**, which is totally necessary to run it. 
+A minimal image with **GPU** version of Tensorflow, Keras and Jupyter on top of **Python 3**. Built with **nvidia-docker**, which is totally necessary to run it. 
 
 ## Usage
 Before you continue, [install NVIDIA-docker with NVIDIA drivers and Docker by the guides under the link](https://github.com/NVIDIA/nvidia-docker)
