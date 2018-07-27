@@ -7,7 +7,15 @@ Before you continue, [install NVIDIA-docker with NVIDIA drivers and Docker by th
 `docker build -t kekonen/ml:gpu .`
 
 ### Run
-`nvidia-docker run -it --rm -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888`
+`nvidia-docker run -it --rm --name docker-ml -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888`
+
+### Access
+#### Jupyter Notebook
+Open http://localhost:8888 in your browser
+
+#### Attach to command line
+`docker attach docker-ml`
+
 
 ## Installations
 The image contents only a set of necessary installations for Tensorflow and Keras (**GPU**)
