@@ -39,7 +39,7 @@ RUN pip3 install \
   nltk \
   Pillow \
   scikit-image \
-  Opencv-python \
+  opencv-python \
   sklearn
 
 RUN pip3 install --upgrade tensorflow-gpu keras
