@@ -1,4 +1,4 @@
-# docker-ml
+# Docker machine-learning image with Keras and Tensorflow
 A minimal image with GPU version of Tensorflow, Keras and Jupyter on top of **Python 3**. Built with **nvidia-docker**, which is totally necessary to run it. 
 
 ## Usage
