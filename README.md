@@ -18,7 +18,7 @@ Open http://localhost:8888 in your browser
 
 
 ## Installations
-The image contents only a set of necessary installations for Tensorflow and Keras (**GPU**)
+The image contents only a set of necessary installations for Tensorflow with Keras (**GPU**) and Jupyter Notebook
 
 ### APT
 - git
