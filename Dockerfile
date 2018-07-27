@@ -34,7 +34,13 @@ RUN pip3 install \
   scipy \
   scikit-learn \
   jupyter \
-  h5py
+  h5py \
+  matplotlib \
+  nltk \
+  Pillow \
+  scikit-image \
+  Opencv-python \
+  sklearn
 
 RUN pip3 install --upgrade tensorflow-gpu keras
 
