@@ -1,5 +1,5 @@
 # docker-ml
-A minimal image with GPU version of Tensorflow, Keras and Jupyter on top of **Python 3**. Built with **nvidia-docker** (nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04), which is totally necessary to run it. 
+A minimal image with GPU version of Tensorflow, Keras and Jupyter on top of **Python 3**. Built with **nvidia-docker**, which is totally necessary to run it. 
 
 ## Usage
 Before you continue, [install NVIDIA-docker with NVIDIA drivers and Docker by the guides under the link](https://github.com/NVIDIA/nvidia-docker)
