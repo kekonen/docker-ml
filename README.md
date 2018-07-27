@@ -2,10 +2,10 @@
 A minimal image with GPU version of Tensorflow, Keras and Jupyter on top of **Python 3**. Built with **nvidia-docker** (nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04), which is totally necessary to run it. 
 
 ## Build
-docker build -t kekonen/ml:gpu .
+`docker build -t kekonen/ml:gpu .`
 
 ## Run
-nvidia-docker run -it --rm -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888
+`nvidia-docker run -it --rm -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888`
 
 ## Installations
 The image contents only a set of necessary installations for Tensorflow and Keras (**GPU**)
