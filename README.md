@@ -7,7 +7,7 @@ Before you continue, [install NVIDIA-docker with NVIDIA drivers and Docker by th
 `docker build -t kekonen/ml:gpu .`
 
 ### Run
-`nvidia-docker run -it --rm --name docker-ml -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/sharedfolder kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888`
+`nvidia-docker run -it --rm --name docker-ml -p 8888:8888 -p 6006:6006 -v ~/code/ml/kaggle:/root/shared -v /media/daniil/2E18DD98594857B9/data:/root/data kekonen/ml:gpu jupyter notebook --allow-root --ip=0.0.0.0 --port=8888`
 
 ### Access
 #### Jupyter Notebook
