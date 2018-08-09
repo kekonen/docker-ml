@@ -4,7 +4,7 @@ A minimal image with **GPU** version of Tensorflow, Keras and Jupyter on top of 
 ** CPU version available **
 
 ## Usage
-Before you continue, [install NVIDIA-docker with NVIDIA drivers and Docker by the guides under the link](https://github.com/NVIDIA/nvidia-docker)
+Before you continue with ** GPU version **, [install NVIDIA-docker with NVIDIA drivers and Docker by the guides under the link](https://github.com/NVIDIA/nvidia-docker)
 ### Build
 - GPU: `docker build -f Dockerfile.gpu -t kekonen/ml:gpu .`
 - CPU: `docker build -f Dockerfile.cpu -t kekonen/ml:cpu .`
