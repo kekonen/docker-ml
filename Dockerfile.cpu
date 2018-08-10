@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y \
   python3-pip\
   liblapack-dev \
   libopenblas-dev \
-  libcupti-dev \
   ca-certificates \
   sudo \
   locales \
